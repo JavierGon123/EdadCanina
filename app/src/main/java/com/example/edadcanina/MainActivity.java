@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     int resultado = edadInt * 7;
                     String resultString = "La edad de tu perrito es "+ resultado +" en años";
                     resultText.setText(resultString);
+                }else{
+                    Toast.makeText(MainActivity.this, "Llenar campos faltantes", Toast.LENGTH_LONG).show();
                 }
             }
         });
