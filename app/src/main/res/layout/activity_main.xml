@@ -34,5 +34,24 @@
         android:inputType="number"
         android:hint="Edad Actual"
         />
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:layout_margin="16sp"
+        android:gravity="center"
+        />
 
+    <Button
+        android:id="@+id/id_botonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="25dp"
+        android:padding="16dp"
+        android:layout_margin="16sp"
+        />
 </LinearLayout>
